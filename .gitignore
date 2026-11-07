@@ -1,0 +1,10 @@
+data/*
+!data/README.md
+checkpoints/
+*.pt
+*.safetensors
+*.bin
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+wandb/
