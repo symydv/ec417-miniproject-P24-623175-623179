@@ -1,0 +1,25 @@
+{
+  "trivial_majority_bootstrap95_macroF1": [
+    0.0822,
+    0.0898
+  ],
+  "tfidf_lr_bootstrap95_macroF1": [
+    0.8054,
+    0.8521
+  ],
+  "distilbert_full_bootstrap95_macroF1": [
+    0.8716,
+    0.9125
+  ],
+  "distilbert_full_weighted_bootstrap95_macroF1": [
+    0.8744,
+    0.9116
+  ],
+  "mcnemar_main_vs_improved": {
+    "a": "distilbert_full",
+    "b": "distilbert_full_weighted",
+    "a_wrong_b_right": 48,
+    "a_right_b_wrong": 55,
+    "p_value": 0.5546010666648732
+  }
+}
